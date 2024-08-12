@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Slider from '@/components/Helper/Slider'
 import React from 'react'
 import { BsQuote } from 'react-icons/bs'
