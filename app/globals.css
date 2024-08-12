@@ -1,33 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+ 
+@layer components {
+  .nav_link{
+    @apply relative text-xl w-fit block after:block after:content-[''] font-semibold
+    after:absolute after:h-[3px] after:bg-yellow-400 text-white after:w-full
+    after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300
+    after:origin-right
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .button_cls{
+    @apply md:px-12 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg
+  }
+  .footer_heading{
+    @apply text-lg text-white font-bold mb-4
+  }
+  .footer_link{
+    @apply text-sm text-white hover:text-green-700 cursor-pointer text-opacity-60 mb-3 w-fit
   }
 }
