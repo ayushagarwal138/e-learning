@@ -7,7 +7,7 @@ return (
         Best online platform for education.
         </h1>
         <p data-aos="fade-left" data-aos-delay="150" className="mt-6 text-sm md:text-base text-white text-opacity-60">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsam enim officiis quia iste aliquid sed odit tempore laboriosam possimus?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsam enim officiis quia iste aliquid sed odit tempore laboriosam possimus.
         </p>
         <div className="mt-8 flex items-center space-x-4">
             <button data-aos="zoom-in" data-aos-delay="300" className="button_cls bg-green-700 hover:bg-green-900">
