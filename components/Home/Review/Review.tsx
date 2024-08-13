@@ -23,7 +23,7 @@ const Review = () => {
             </p>
             <div className="flex items-center space-x-10 mt-8">
                 <p className="text-white font-bold text-5xl">99%</p>
-                <p className="text-white">Student's Complete <br /> Course Successfully</p>
+                <p className="text-white">{"Student's Complete"} <br /> Course Successfully</p>
             </div>
             </div>
             <div className="xl:col-span-2 bg-white rounded-lg overflow-hidden">
