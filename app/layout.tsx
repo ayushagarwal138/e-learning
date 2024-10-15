@@ -4,6 +4,7 @@ import "./globals.css";
 import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
 import Footer from "@/components/Home/Footer/Footer";
 import ScrollToTop from "@/components/Helper/ScrollToTop";
+import Nav from "@/components/Home/Navbar/Nav";
 
 const font=Space_Grotesk({
   weight: ['300','400','500','600','700'],
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
+        <Nav />
         <ResponsiveNav />
         {children}
         <Footer />
